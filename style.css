@@ -13,7 +13,7 @@ body{
     background-color: rgb(255, 255, 255, .6);
     width: 30%;
     height: 60%;
-    border: 1px solid #0B2545;
+    border: 5px solid #0B2545;
     border-radius: 50%;
     position: relative;
     top: 50%;
@@ -45,7 +45,7 @@ body{
     left: 50%;
     bottom: 50%;
     transform: translateX(-50%) rotate(calc(var(--rotation)*1deg));
-    border: 1px #8DA9C4 solid;
+    border: 1px #85a5c4 solid;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     transform-origin: bottom;
@@ -61,7 +61,7 @@ body{
     transform: translate(-50%, -50%);
     width: 1.5%;
     height: 3%;
-    background-color: #0B2545;
+    background-color: #134074;
     border-radius: 50%;
 }
 
@@ -75,12 +75,11 @@ body{
 .clock .minute{
     background-color: #134074;
     height: 35%;
-    width: 2%;
-    border: none;
+    width: 5px;
 }
 
 .clock .hour{
     background-color: #134074;
     height: 30%;
-    width: 3%;
+    width: 9px;
 }
